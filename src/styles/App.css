@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +9,153 @@
   /* ======== COLORS ======== */
   --color-primary: #fff;
   --color-secundary: #000;
+  --gray-light: #f4f4f4;
+  --gray-dark: #201f1f;
+  /* ======== FONTS ======== */
+  --font-primary: 'Josefin Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+	display: none; /*para esconcder la barra */
+}
+
+/* ======== SECTION 1 ======== */
+#section1{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+}
+              /*==== LEFT ====  */
+.container-left {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100vh;
+}
+.contain-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  margin-top: -15%;
+  margin-left: -5%;
+}
+.contain-circle .circle{
+  background-color: var(--color-secundary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  animation: expand 2s forwards; 
+}
+.name{
+  padding-bottom: 6%;
+  width: 155px;
+}
+.container-left h1{
+  font-size: 3.7rem;
+  font-family: var(--font-primary);
+  animation: aparece 4s forwards;
+}
+.container-left .name h1{
+  color: var(--color-secundary);
+  font-weight: bold;
+}
+
+.circle h1{
+  color: var(--color-primary);
+}
+
+
+              /*==== BUTTON ==== */
+.contain-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: -25%;
+  top: 45%;
+  right: 20%;
+}
+.contain-button button {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: transparent;
+  z-index: 50;
+}
+.o-dark{
+  background-color: var(--color-secundary);
+  height: 20px;
+  width: 20px;
+  position: relative;
+  right: 47%;
+  margin-top: -3.8%;
+  border-radius: 50%;
+  z-index: 75;
+}
+.contain-button button:hover {
+  background-color: var(--color-primary);
+  z-index: 100;
+}
+
+
+              /* ==== RIGHT ==== */
+.container-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: var(--gray-light);
+  width: 53%;
+  height: 100vh;
+}
+.div-image {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  animation: img-up 2s forwards;
+}
+
+
+/*==== ANIMATION SECTION 1 ====  */
+@keyframes expand {
+  0%{
+    width: 0px;
+    height: 0px;
+  }
+  100%{
+    width: 450px;
+    height: 450px;
+  }
+}
+@keyframes aparece {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes img-up {
+  0%{
+    width: 0%;
+    height: 0%;
+    margin-bottom: -50%;
+  }
+  100%{
+    width: 100%;
+    height: 85%;
+    margin-bottom: 0%;
+  }
 }
