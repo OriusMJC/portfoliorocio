@@ -1,0 +1,35 @@
+:root{
+    /* ======== COLORS ======== */
+    --color-primary: #fff;
+    --color-secundary: #000;
+    --gray-light: #f4f4f4;
+    --gray-dark: #201f1f;
+    /* ======== FONTS ======== */
+    --font-primary: 'Josefin Sans', sans-serif;
+  }
+
+.container-nav{
+    background-color: var(--gray-dark);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    position: fixed;
+    width: 0%;
+    height: 100vh;
+    z-index: 40;
+    transition: all 0.5s;
+  }
+
+.nav{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    width: 100;
+    height: 100vh;
+  }
+
+.activate{
+    width: 45%;
+    height: 100vh;
+    opacity: 1;
+}

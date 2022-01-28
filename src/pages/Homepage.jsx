@@ -24,7 +24,7 @@ export default function Homepage(){
     },[])
 
     return (
-        <div>
+        <div className='containerr'>
             <section id='section1'>
                 <div className='container-left'>
                     <div className='contain-circle'>
@@ -36,7 +36,7 @@ export default function Homepage(){
                         <h1 className='write-name'>Rocío.</h1>
                     </div>
                     <div className='contain-button'>
-                        <button>EXPLORAR</button>
+                        <button className='button-explorar'>EXPLORAR</button>
                         <div className='o-dark'></div>
                     </div>
                 </div>
@@ -47,9 +47,13 @@ export default function Homepage(){
                 </div>
           </section>
           <section id='section2'>
-
+                <div className=''>
+                </div>
           </section>
           <section id='section3'>
+
+          </section>
+          <section id='section4'>
 
           </section>
         </div>
