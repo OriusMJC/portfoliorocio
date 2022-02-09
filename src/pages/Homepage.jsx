@@ -1,5 +1,9 @@
-import React,{useEffect} from 'react'
-import rociohome from '../img/rociohome.png'
+import React,{useEffect} from 'react';
+import './styles/HomePage.css';
+import rociohome from '../img/rociohome.png';
+import rociosobremi from '../img/rociosobremi.png';
+import logoher from '../img/logos-herramientas.png'
+import logointer from '../img/logos-intereses.png'
 
 export default function Homepage(){
     useEffect(()=>{
@@ -24,8 +28,8 @@ export default function Homepage(){
     },[])
 
     return (
-        <div className='containerr'>
-            <section id='section1'>
+        <div className='contenedor'>
+            <section id='home'>
                 <div className='container-left'>
                     <div className='contain-circle'>
                         <div className='circle'>
@@ -42,18 +46,32 @@ export default function Homepage(){
                 </div>
                 <div className='container-right'>
                     <div className="div-image">
-                        <img src={rociohome}></img>
+                        <img src={rociohome} alt='Foto Rocio Olivera'></img>
                     </div>
                 </div>
           </section>
-          <section id='section2'>
-                <div className=''>
+          <section id='sobremi'>
+                <div className='div-imgsobremi'>
+                    <img src={rociosobremi} alt='rocio foto sobre mi'/>
+                </div>
+                <div className='container-sobremi'>
+                    
+                </div>
+                <h1 className='pais'>ARGENTINA.</h1>
+                <div className='container-intereses'>
+                    <div className='herramientas'>
+                        <img src={logoher} alt='logos de herramientas'/>
+                    </div>
+                    <div className='intereses'>
+                        <h1>INTERESES.</h1>
+                        <img src={logointer} alt='logos de herramientas'/>
+                    </div>
                 </div>
           </section>
-          <section id='section3'>
+          <section id='proyectos'>
 
           </section>
-          <section id='section4'>
+          <section id='contacto'>
 
           </section>
         </div>

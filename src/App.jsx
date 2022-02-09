@@ -1,5 +1,4 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import './styles/App.css';
 import Homepage from './pages/Homepage.jsx'
 import Scrollbar from './components/scrollbar.jsx'
 import Navbar from './components/navbar.jsx'

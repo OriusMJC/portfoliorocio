@@ -7,7 +7,6 @@ export default function Scrollbar(){
         let pos = 7; //position scroll-circle
         window.addEventListener('scroll', ()=>{
             let scrollTop = document.documentElement.scrollTop;
-            console.log(scrollTop)
             if(scrollTop <= 600){
                 pos = 7;
                 scrollbar.style.top = `${pos}%`;
