@@ -28,7 +28,7 @@ export default function Homepage(){
     },[])
 
     return (
-        <div className='contenedor'>
+        <div className='p-contenedor'>
             <section id='home'>
                 <div className='container-left'>
                     <div className='contain-circle'>
@@ -37,7 +37,7 @@ export default function Homepage(){
                         </div>
                     </div>
                     <div className='name'>
-                        <h1 className='write-name'>Rocío.</h1>
+                        <h1 className='write-name'></h1>
                     </div>
                     <div className='contain-button'>
                         <button className='button-explorar'>EXPLORAR</button>
@@ -55,15 +55,32 @@ export default function Homepage(){
                     <img src={rociosobremi} alt='rocio foto sobre mi'/>
                 </div>
                 <div className='container-sobremi'>
-                    
+                    <div className='text-sobremi'>
+                        <h1>Sobre mi.</h1>
+                    </div>
+                    <div className='text-data'>
+                        <h2>ROCÍO OLIVERA | 05 Noviembre 1999</h2>
+                    </div>
+                    <div className='text-description'>
+                        <h3>Soy Rocío, una diseñadora e ilustradora 
+                            independiente que reside en la ciudad de
+                            Buenos Aires, Argentina. <br/> Soy muy persistente, 
+                            centrada y extremadamente organizada. 
+                            Me propongo siempre dar mi 100% y sorprenderme
+                            al final de cada proyecto.
+                        </h3>
+                    </div>
+                    <div className='text-desing'>
+                        <h2>DISEÑO DIGITAL</h2>
+                    </div>
                 </div>
-                <h1 className='pais'>ARGENTINA.</h1>
+                <h1 className='pais'>ARGENTINA</h1>
                 <div className='container-intereses'>
                     <div className='herramientas'>
                         <img src={logoher} alt='logos de herramientas'/>
                     </div>
                     <div className='intereses'>
-                        <h1>INTERESES.</h1>
+                        <h1>INTERESES</h1>
                         <img src={logointer} alt='logos de herramientas'/>
                     </div>
                 </div>

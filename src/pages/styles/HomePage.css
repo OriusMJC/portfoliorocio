@@ -19,6 +19,14 @@
 body::-webkit-scrollbar {
   display: none; /*para esconcder la barra */
 }
+
+/* .p-contenedor{
+  scroll-snap-type: y mandatory; 
+}                                     ERROR!!!!
+.p-contenedor section{
+  scroll-snap-align: start;
+} */
+
 section{
   width: 100vw;
   height: 100vh;
@@ -200,12 +208,71 @@ section{
   height: 80vh;
   width: 40%;
   margin-top: 10.4%;
-  margin-left: 7%;
-  z-index: 100;
+  margin-left: 5%;
+  z-index: 50;
 }
 .div-imgsobremi img{
   height: 100%;
   width: 92%;
+}
+            /* ==== DESCRIPCION 'SOBRE MI' ==== */
+.container-sobremi{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  height: 60%;
+  width: 75%;
+}
+.text-sobremi{
+  margin-top: 4%;
+  color: var(--gray-medium);
+  height: 50%;
+  width: 30%;
+}
+.text-sobremi h1{
+  font-size: 8rem;
+  font-family: var(--font-primary);
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.text-data{
+  color: var(--gray-medium);
+  position: absolute;
+  top: 5%;
+  right: 12%;
+}
+.text-data h2{
+  font-family: var(--font-primary);
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+.text-description{
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  color: var(--gray-dark);
+  width: 47%;
+}
+.text-description h3{
+  font-family: var(--font-primary);
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.text-desing{
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  left: 12%;
+  color: var(--gray-dark);
+  width: 38%;
+}
+.text-desing h2{
+  font-weight: 100;
+  color: var(--gray-medium);
+  letter-spacing: 2px;
 }
 
             /* ==== H1 ARGENTINA ==== */
@@ -227,15 +294,15 @@ section{
   grid-auto-rows: minmax(100px, auto);
   position: relative;
   left: 30%;
-  top: 65%;
-  height: 33vh;
+  top: 59%;
+  height: 38vh;
   width: 70%;
 }
 .herramientas {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 .herramientas:after{
@@ -243,13 +310,13 @@ section{
   position: absolute;
   width: 63%;
   height: 5px;
-  bottom: 145px;
+  bottom: 45%;
   left: 0%;
   border-bottom: 2px solid var(--color-secundary);
 }
 .herramientas img{
   height: 85%;
-  margin-right: 15%;
+  margin-right: 17%;
 }
 
 .intereses{
@@ -263,10 +330,10 @@ section{
 .intereses:after{
   content: "";
   position: absolute;
-  width: 42%;
+  width: 45%;
   height: 5px;
-  bottom: 15px;
-  left: 58%;
+  bottom: 7%;
+  right: 0%;
   border-bottom: 2px solid var(--color-secundary);
 }
 .intereses h1{
@@ -275,12 +342,13 @@ section{
   font-weight: 100;
   color: var(--gray-medium);
   margin-top: -6%;
-  margin-right: 64%;
+  margin-right: 70%;
+  letter-spacing: 2px;
 }
 .intereses img{
   height: 70%;
-  width: 55%;
-  margin-right: 10%;
+  width: 60%;
+  margin-right: 8%;
 }
 
 
