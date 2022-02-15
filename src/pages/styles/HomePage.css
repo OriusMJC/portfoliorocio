@@ -361,10 +361,107 @@ section{
   justify-content: space-evenly;
   z-index: 300;
 }
-
+.div-tittle-proyectos{
+  display: flex;
+  position: absolute;
+  left: 27%;
+  margin-top: 20px;
+  width: 280px;
+  height: 250px;
+  color: var(--gray-medium)
+}
+.div-tittle-proyectos h1{
+  font-family: var(--font-primary);
+  font-size: 7rem;
+  font-weight: bold;
+  text-align: end;
+  letter-spacing: 5px;
+}
 
 
 /* ====== SECTION 4 ====== */
 #contacto{
-  background-color: gray;
+  background-color: var(--color-primary);
+  display: flex;
+}
+          /* -- TITTLE CONTACT -- */
+.tittle-contact{
+  color: var(--gray-medium);
+  margin-top: 100px;
+  margin-left: -100%;
+  transition: 1s;
+}
+.tittle-contact h1{
+  font-family: var(--font-primary);
+  font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.contact-animation{
+  animation: apa-izq 1s forwards;
+}
+@keyframes apa-izq {
+  0% {
+    margin-left: -100%;
+  }
+  100%{
+    margin-left: 250px;
+  }
+}
+
+          /* ---- FORM ----- */
+.div-form{
+  position: absolute;
+  right: 5%;
+  margin-top: 200px;
+  height: 70vh;
+  width: 45vw;
+}
+.form {
+  color: var(--color-secundary);
+  font-size: 1.7rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.form .input-data{
+  width: 100%;
+  height: 10%;
+  margin-top: 40px;
+  padding-left: 20px;
+  border: 5px solid var(--color-secundary);
+  border-radius: 0px 50px 50px 50px;
+}
+.form textarea{
+  width: 100%;
+  height: 40%;
+  margin-top: 40px;
+  padding-left: 20px;
+  resize: none;
+  border: 5px solid var(--color-secundary);
+  border-radius: 0px 50px 50px 50px;
+}
+.button-enviar {
+  background-color: var(--gray-light);
+  height: 70px;
+  width: 180px;
+  margin-top: 40px;
+  border: 0px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transition: .5s;
+}
+.button-enviar:hover {
+  margin-top: 38px;
+  height: 75px;
+  width: 185px;
+  font-size: 1.65rem;
+}
+input::placeholder, textarea::placeholder{
+  color: var(--color-secundary);
+  font-size: 1.7rem;
+  font-weight: 300;
 }

@@ -91,12 +91,28 @@ export default function Homepage(){
                 </div>
           </section>
           <section id='proyectos'>
-                <Etiqueta page='LOGO' image={logos} id='1'></Etiqueta>
-                <Etiqueta page='PUBLICIDADES Y PRESENTACIONES' image={publicidades} id='2'></Etiqueta>
+                <div className='div-tittle-proyectos'>
+                    <h1>Proye ctos.</h1>
+                </div>
+                <Etiqueta page='LOGOS' image={logos} id='1'></Etiqueta>
+                <Etiqueta page='PUBLICIDADES' image={publicidades} id='2'></Etiqueta>
                 <Etiqueta page='ILUSTRACIONES' image={ilustraciones} id='3'></Etiqueta>
           </section>
           <section id='contacto'>
-
+                <div className='tittle-contact'>
+                    <h1>Contacto.</h1>
+                </div>
+                <div className='div-form'>
+                    <form className='form'
+                    action="https://formspree.io/f/xlezbjwa"
+                    method="POST"
+                    >
+                        <input className='input-data' type='text' placeholder='Tú nombre' required/>
+                        <input className='input-data' type='email' placeholder='Email' name="email" required/>
+                        <textarea type='' placeholder='Tú mensaje' name="message" required/>
+                        <input className='button-enviar' type='submit' value='Enviar'/>
+                    </form>
+                </div>  
           </section>
         </div>
     )

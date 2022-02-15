@@ -17,7 +17,7 @@
     align-items: flex-end;
     margin-right: -5%;
     padding-bottom: 25px;
-    height: 800px;
+    height: 830px;
     width: 550px;
     transition: .5s;
 }
@@ -28,20 +28,23 @@
     font-family: var(--font-primary);
 }
 .etiqueta-h1 h1{
-    font-size: 2rem;
-    
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .etiqueta-img{
     display: flex;
     align-items: flex-end;
-    width: 70%;
+    width: 80%;
     height: 60%;
+    margin-left: 40px;
 }
 
 .etiqueta-img img{
     width: 100%;
     object-fit:contain;
+    border-radius: 15px;
 }
 
 /* -- ETIQUETA 1 -- */
@@ -49,25 +52,31 @@
     border-radius: 0px 0px 50px 15px;
 }
 .etiqueta1 .etiqueta-h1{
-    margin-bottom: 30px;
+    margin-bottom: 47px;
+}
+.etiqueta1 .etiqueta-img{
+    width: 80%;
 }
 
 
 /* -- ETIQUETA 2 -- */
 .etiqueta2{
-    margin-top: 16.4%;
-    height: 700px;
+    margin-top: 21.7%;
+    height: 600px;
     border-radius: 50px 50px 0px 0px;
 }
 .etiqueta2 .etiqueta-h1{
-    width: 1250px;
-    margin-bottom: 590px;
+    width: 550px;
+    margin-bottom: 410px;
+}
+.etiqueta2 .etiqueta-img{
+    margin-bottom: 70px;
 }
 .etiqueta2:hover {
     color: var(--color-secundary);
-    margin-top: 15.3%;
-    height: 721px;
-    padding-bottom: 50px;
+    margin-top: 19%;
+    height: 650px;
+    padding-bottom: 60px;
 }
 
 /* -- ETIQUETA 3 -- */
@@ -79,6 +88,6 @@
   }
 .etiqueta1:hover,.etiqueta3:hover {
     color: var(--color-secundary);
-    height: 820px;
+    height: 850px;
   }
   
