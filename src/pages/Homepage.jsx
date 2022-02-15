@@ -4,6 +4,11 @@ import rociohome from '../img/rociohome.png';
 import rociosobremi from '../img/rociosobremi.png';
 import logoher from '../img/logos-herramientas.png'
 import logointer from '../img/logos-intereses.png'
+import logos from '../img/logo-perro.png'
+import publicidades from '../img/Tratamientos-de-queratina.png'
+import ilustraciones from '../img/cerdo.png'
+
+import Etiqueta from '../components/etiproyectos.jsx'
 
 export default function Homepage(){
     useEffect(()=>{
@@ -86,7 +91,9 @@ export default function Homepage(){
                 </div>
           </section>
           <section id='proyectos'>
-
+                <Etiqueta page='LOGO' image={logos} id='1'></Etiqueta>
+                <Etiqueta page='PUBLICIDADES Y PRESENTACIONES' image={publicidades} id='2'></Etiqueta>
+                <Etiqueta page='ILUSTRACIONES' image={ilustraciones} id='3'></Etiqueta>
           </section>
           <section id='contacto'>
 
