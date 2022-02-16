@@ -30,6 +30,8 @@ body::-webkit-scrollbar {
 section{
   width: 100vw;
   height: 100vh;
+  margin-bottom: 1px;
+  border-top: 1px solid black;
 }
 
 /* ======== SECTION 1 ======== */

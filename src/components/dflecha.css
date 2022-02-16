@@ -1,0 +1,74 @@
+:root{
+    /* ======== COLORS ======== */
+    --color-primary: #fff;
+    --color-secundary: #000;
+    --gray-medium: #a8a8a8;
+    --gray-light: #f4f4f4;
+    --gray-dark: #252424;
+    /* ======== FONTS ======== */
+    --font-primary: 'Josefin Sans', sans-serif;
+  }
+
+.container-dflecha{
+    font-family: var(--font-primary);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    height: 100vh;
+    width: 4vw;
+
+}
+.container-dflecha h1{
+    transform: rotate(270deg);
+    font-size: 2rem;
+}
+
+.flechas{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    text-decoration: none;
+}
+.flecha{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 5px solid var(--color-secundary);
+}
+
+.flecha h3{
+    color: transparent;
+    margin-left: 0px;
+    margin-top: 20%;
+    transition: .3s;
+}
+.flecha:hover h3{
+    color: var(--color-secundary);
+    margin-left: 140%;
+    font-weight: bold;
+}
+
+#button-home{
+    font-family: var(--font-primary);
+    position: absolute;
+    left: 46%;
+    bottom: 3%;
+    text-decoration: none;
+    color: var(--color-secundary);
+}
+#button-home h1{
+    font-weight: bold;
+}
+
+#button-home div{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    margin-top: -43.5px;
+    margin-left: 32px;
+    height: 30px;
+    width: 30px;
+}

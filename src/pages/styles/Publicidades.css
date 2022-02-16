@@ -1,0 +1,68 @@
+:root{
+    /* ======== COLORS ======== */
+    --color-primary: #fff;
+    --color-secundary: #000;
+    --gray-medium: #a8a8a8;
+    --gray-light: #f4f4f4;
+    --gray-dark: #252424;
+    /* ======== FONTS ======== */
+    --font-primary: 'Josefin Sans', sans-serif;
+  }
+
+section{
+    height:100vh;
+    width:100vw;
+  }
+
+  /* --- LOGOS --- */
+
+#publicidades{
+    background-color: var(--gray-light);
+    display: flex;
+}
+
+.container-publicidades{
+    display: flex;
+    flex-wrap: wrap;
+    height:85vh;
+    width:85vw;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.container-publicidades img{
+    height: 42%;
+    width: 22%;
+    margin: 10px;
+}
+#revista{
+    height: 52%;
+    width: 20%;
+}
+#sonrisas{
+    height: 9%;
+    width: 21%;
+}
+#queratina2{
+    position: absolute;
+    right: 11.3%;
+    top: 14.8%;
+    height: 35%;
+    width: 18%;
+}
+
+#tango{
+    margin-top: -110px;
+    height: 50%;
+    width: 42%;
+}
+#panel{
+    margin-top: -20px;
+    height: 39.5%;
+    width: 28%;
+}
+#moot{
+    margin-top: -20px;
+    height: 39.5%;
+    width: 16.5%;
+}

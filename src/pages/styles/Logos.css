@@ -1,0 +1,38 @@
+:root{
+    /* ======== COLORS ======== */
+    --color-primary: #fff;
+    --color-secundary: #000;
+    --gray-medium: #a8a8a8;
+    --gray-light: #f4f4f4;
+    --gray-dark: #252424;
+    /* ======== FONTS ======== */
+    --font-primary: 'Josefin Sans', sans-serif;
+  }
+
+section{
+    height:100vh;
+    width:100vw;
+  }
+
+  /* --- LOGOS --- */
+
+#logos{
+    background-color: var(--gray-light);
+    display: flex;
+}
+
+.container-logos{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height:85vh;
+    width:85vw;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.container-logos img{
+    height: 45%;
+    width: 24%;
+}

@@ -1,4 +1,6 @@
 import React,{useEffect} from 'react';
+import Scrollbar from '../components/scrollbar'
+import Navbar from '../components/navbar.jsx'
 import './styles/HomePage.css';
 import rociohome from '../img/rociohome.png';
 import rociosobremi from '../img/rociosobremi.png';
@@ -34,6 +36,8 @@ export default function Homepage(){
 
     return (
         <div className='p-contenedor'>
+            <Navbar/>
+            <Scrollbar/>
             <section id='home'>
                 <div className='container-left'>
                     <div className='contain-circle'>
@@ -94,9 +98,9 @@ export default function Homepage(){
                 <div className='div-tittle-proyectos'>
                     <h1>Proye ctos.</h1>
                 </div>
-                <Etiqueta page='LOGOS' image={logos} id='1'></Etiqueta>
-                <Etiqueta page='PUBLICIDADES' image={publicidades} id='2'></Etiqueta>
-                <Etiqueta page='ILUSTRACIONES' image={ilustraciones} id='3'></Etiqueta>
+                <Etiqueta page='logos' image={logos} id='1'></Etiqueta>
+                <Etiqueta page='publicidades' image={publicidades} id='2'></Etiqueta>
+                <Etiqueta page='ilustraciones' image={ilustraciones} id='3'></Etiqueta>
           </section>
           <section id='contacto'>
                 <div className='tittle-contact'>
