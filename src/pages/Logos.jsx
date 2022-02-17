@@ -16,14 +16,14 @@ export default function Logos(){
                 <Flechas page='logos' up='ilustraciones' down='publicidades'/>
                 <div></div>
                 <div className='container-logos'>
-                    <img src={logoperro}/>
-                    <img src={caja}/>
-                    <img src={bagguette}/>
-                    <img src={disenogods}/>
-                    <img src={titologo}/>
-                    <img src={camion}/>
-                    <img src={mochila}/>
-                    <img src={oriusgods}/>
+                    <img src={logoperro} alt='logo pet shop prieto'/>
+                    <img src={caja} alt='logo caja de envio'/>
+                    <img src={bagguette} alt='bolsa bagguette catarsis'/>
+                    <img src={disenogods} alt='logo de gods'/>
+                    <img src={titologo} alt='logo pizzas tito´s'/>
+                    <img src={camion} alt='logo camioneta de envio'/>
+                    <img src={mochila} alt='mochila catarsis'/>
+                    <img src={oriusgods} alt='logo oriusgods'/>
                 </div>
             </section>
         </div>

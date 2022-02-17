@@ -17,14 +17,14 @@ export default function Publicidades(){
                 <Flechas page='publicidades' up='logos' down='ilustraciones'/>
                 <div></div>
                 <div className='container-publicidades'>
-                    <img id='queratina' src={queratina}/>
-                    <img id='promoot' src={promoot}/>
-                    <img id='revista' src={revista}/>
-                    <img id='sonrisas' src={sonrisas}/>
-                    <img id='queratina2' src={queratina2}/>
-                    <img id='tango' src={tango}/>
-                    <img id='panel' src={panel}/>
-                    <img id='moot' src={moot}/>
+                    <img id='queratina' src={queratina} alt='tratamiento de queratina'/>
+                    <img id='promoot' src={promoot} alt='proyecto moot'/>
+                    <img id='revista' src={revista} alt=' revista barrial nueva pompeya'/>
+                    <img id='sonrisas' src={sonrisas} alt='publicida scouts'/>
+                    <img id='queratina2' src={queratina2} alt='tratamiento queratina verano 2020'/>
+                    <img id='tango' src={tango} alt='argentina tango tour'/>
+                    <img id='panel' src={panel} alt='panel envase de leche'/>
+                    <img id='moot' src={moot} alt='scouts moot 2019'/>
                 </div>
             </section>
         </div>

@@ -22,8 +22,10 @@
 
 }
 .container-dflecha h1{
+    color: var(--gray-medium);
     transform: rotate(270deg);
     font-size: 2rem;
+    font-weight: 600;
 }
 
 .flechas{

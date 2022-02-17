@@ -23,8 +23,8 @@
     position: absolute;
     background-color: #000;
     top: 7%;
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%;
     transition: 0.5s;
 }

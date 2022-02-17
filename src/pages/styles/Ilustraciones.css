@@ -16,12 +16,12 @@ section{
 
   /* --- LOGOS --- */
 
-#publicidades{
+#ilustraciones{
     background-color: var(--gray-light);
     display: flex;
 }
 
-.container-publicidades{
+.container-ilustraciones{
     display: flex;
     flex-wrap: wrap;
     height:85vh;
@@ -30,39 +30,40 @@ section{
     margin-left: 12%;
 }
 
-.container-publicidades img{
+.container-ilustraciones img{
     height: 45%;
-    width: 24%;
-    margin: 12px;
-}
-#revista{
-    height: 53%;
-    width: 20%;
-}
-#sonrisas{
-    height: 9%;
-    width: 23%;
-}
-#queratina2{
-    position: absolute;
-    right: 5.5%;
-    top: 14.8%;
-    height: 36%;
-    width: 19.5%;
+    width: 17%;
+    margin: 10px;
 }
 
-#tango{
-    margin-top: -60px;
+#mano{
+    height: 27%;
+    width: 23%;
+}
+#dedos{
+    margin-top: 30px;
+    height: 35%;
+    width: 12%;
+}
+#abeja{
+    height: 60%;
+    width: 22%;
+}
+#cerdo{
+    margin-top: -275px;
+    height: 68%;
+    width: 22%;
+}
+#manostecno{
+    margin-top: -120px;
     height: 50%;
-    width: 42%;
+    width: 40%;
 }
-#panel{
-    margin-top: 10px;
-    height: 41.7%;
-    width: 33%;
+#logoro2{
+    height: 34.7%;
+    width: 16%;
 }
-#moot{
-    margin-top: 10px;
-    height: 41.7%;
-    width: 17.5%;
+#potato{
+    height: 33%;
+    width: 15%;
 }
