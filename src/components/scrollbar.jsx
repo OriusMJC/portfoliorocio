@@ -4,7 +4,7 @@ import './scrollbar.css'
 export default function Scrollbar(){
     useEffect(()=>{
         const scrollbar = document.querySelector('.scrollbar-circle');
-        const tcontact = document.querySelector('.tittle-contact');
+        const tcontact = document.querySelector('.contain-links-contact');
         let pos = 7; //position scroll-circle
         window.addEventListener('scroll', ()=>{
             let scrollTop = document.documentElement.scrollTop;

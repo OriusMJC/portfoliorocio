@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -33,6 +32,12 @@ section{
   margin-bottom: 1px;
   border-top: 1px solid black;
 }
+.rologo{
+  position: absolute;
+  height: 60px;
+  margin-top:895px;
+  right: 15px;
+}
 
 /* ======== SECTION 1 ======== */
 #home{
@@ -52,8 +57,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
-  height: 450px;
+  width: 430px;
   margin-top: -15%;
   margin-left: -5%;
 }
@@ -62,12 +66,12 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 450px;
-  height: 450px;
+  width: 430px;
   border-radius: 50%;
   animation: expand 2s forwards; 
 }
 .name{
+  margin-left: 10px;
   padding-bottom: 6%;
   width: 155px;
 }
@@ -98,12 +102,13 @@ section{
 .contain-button button {
   font-family: var(--font-primary);
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 300;
   background-color: transparent;
   border-color: transparent;
   transition: button 0.13s;
   transition-delay: 0.13s;
   z-index: 50;
+  cursor: pointer;
 }
 .o-dark{
   background-color: var(--color-secundary);
@@ -137,10 +142,12 @@ section{
 .btn-activate button{ 
   font-family: var(--font-primary);
   font-size: 1.5rem;
+  font-weight: 300;
   background-color: transparent;
   color: var(--color-primary);
   border-color: transparent;
   z-index: 1000;
+  cursor: pointer;
 }
 
 
@@ -170,8 +177,8 @@ section{
     height: 0px;
   }
   100%{
-    width: 450px;
-    height: 450px;
+    width: 430px;
+    height: 430px;
   }
 }
 @keyframes aparece {
@@ -238,7 +245,7 @@ section{
 .text-sobremi h1{
   font-size: 8rem;
   font-family: var(--font-primary);
-  font-weight: bold;
+  font-weight: 500;
   letter-spacing: 10px;
 }
 .text-data{
@@ -249,7 +256,7 @@ section{
 }
 .text-data h2{
   font-family: var(--font-primary);
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 2px;
 }
 .text-description{
@@ -262,7 +269,7 @@ section{
 }
 .text-description h3{
   font-family: var(--font-primary);
-  font-weight: bold;
+  font-weight: 300;
   letter-spacing: 3px;
 }
 .text-desing{
@@ -376,7 +383,7 @@ section{
 .div-tittle-proyectos h1{
   font-family: var(--font-primary);
   font-size: 7rem;
-  font-weight: bold;
+  font-weight: 500;
   text-align: end;
   letter-spacing: 5px;
 }
@@ -391,24 +398,54 @@ section{
 .tittle-contact{
   color: var(--gray-medium);
   margin-top: 100px;
-  margin-left: -100%;
+  margin-left: 250px;
   transition: 1s;
 }
 .tittle-contact h1{
   font-family: var(--font-primary);
   font-size: 5rem;
-  font-weight: bold;
+  font-weight: 400;
   letter-spacing: 10px;
 }
+.contain-links-contact{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+  margin-left: -500px;
+  height: 50px;
+  width: 300px;
+}
+
+.contain-links-contact a{
+  color: var(--gray-medium);
+  margin-top: 100px;
+  text-decoration: none;
+}
+.contain-links-contact a:hover{
+  color: var(--gray-medium);
+  margin-top: 98px;
+  margin-bottom: 26px;
+  height: 27px;
+}
+
+.contain-links-contact a h2{
+  margin-left: 63px;
+  margin-top: -45px;
+}
+.contain-links-contact a img{
+  height: 50px;
+}
+
+
 .contact-animation{
-  animation: apa-izq 1s forwards;
+  animation: apa-izq .5s forwards;
 }
 @keyframes apa-izq {
   0% {
     margin-left: -100%;
   }
   100%{
-    margin-left: 250px;
+    margin-left: 50px;
   }
 }
 

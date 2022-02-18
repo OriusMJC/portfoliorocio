@@ -10,6 +10,7 @@ import cerdo from '../img/img-proyectos/ilustraciones/cerdo.png'
 import manostecno from '../img/img-proyectos/ilustraciones/tecnologia.png'
 import logoro2 from '../img/img-proyectos/ilustraciones/yo-logo1.jpg'
 import potato from '../img/img-proyectos/ilustraciones/potato.png'
+import rologo from '../img/ro-logo-blanco.png'
 
 export default function ilustraciones(){
     return(
@@ -28,6 +29,7 @@ export default function ilustraciones(){
                     <img id='logoro2' src={logoro2} alt='logo rocio'/>
                     <img id='potato' src={potato} alt='potato art'/>
                 </div>
+                <img src={rologo} className='rologo'/>
             </section>
         </div>
     )

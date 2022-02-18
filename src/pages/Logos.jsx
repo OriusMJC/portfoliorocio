@@ -8,6 +8,7 @@ import logoperro from '../img/img-proyectos/logos/logo-perro.png'
 import mochila from '../img/img-proyectos/logos/mochila.png'
 import oriusgods from '../img/img-proyectos/logos/oriusgods.png'
 import titologo from '../img/img-proyectos/logos/titologo.png'
+import rologo from '../img/ro-logo-blanco.png'
 
 export default function Logos(){
     return(
@@ -25,6 +26,7 @@ export default function Logos(){
                     <img src={mochila} alt='mochila catarsis'/>
                     <img src={oriusgods} alt='logo oriusgods'/>
                 </div>
+                <img src={rologo} className='rologo'/>
             </section>
         </div>
     )

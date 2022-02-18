@@ -9,6 +9,9 @@ import logointer from '../img/logos-intereses.png'
 import logos from '../img/logo-perro.png'
 import publicidades from '../img/Tratamientos-de-queratina.png'
 import ilustraciones from '../img/cerdo.png'
+import logoinsta from '../img/insta-logo.png'
+import logolinkedin from '../img/linke-logo.png'
+import rologo from '../img/ro-logo.png'
 
 import Etiqueta from '../components/etiproyectos.jsx'
 
@@ -101,10 +104,21 @@ export default function Homepage(){
                 <Etiqueta page='logos' image={logos} id='1'></Etiqueta>
                 <Etiqueta page='publicidades' image={publicidades} id='2'></Etiqueta>
                 <Etiqueta page='ilustraciones' image={ilustraciones} id='3'></Etiqueta>
+                <img src={rologo} className='rologo'/>
           </section>
           <section id='contacto'>
                 <div className='tittle-contact'>
                     <h1>Contacto.</h1>
+                    <div className='contain-links-contact'>
+                        <a href='https://www.instagram.com/roc_oliv/' target='_blank'>
+                            <img src={logoinsta}/>
+                            <h2>@roc_oliv</h2>
+                        </a>
+                        <a href='' target='_blank'>
+                            <img src={logolinkedin}/>
+                            <h2>Rocío Olivera</h2>
+                        </a>
+                    </div>
                 </div>
                 <div className='div-form'>
                     <form className='form'
@@ -116,7 +130,8 @@ export default function Homepage(){
                         <textarea type='' placeholder='Tú mensaje' name="message" required/>
                         <input className='button-enviar' type='submit' value='Enviar'/>
                     </form>
-                </div>  
+                </div>
+                <img src={rologo} className='rologo'/>  
           </section>
         </div>
     )

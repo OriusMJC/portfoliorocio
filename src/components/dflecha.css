@@ -22,10 +22,21 @@
 
 }
 .container-dflecha h1{
+    display: flex;
+    justify-content: center;
     color: var(--gray-medium);
     transform: rotate(270deg);
+    width:600px;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 200;
+}
+#flecha-arr{
+    background-image: url(../img/flecha-arr.png);
+    background-size: contain;
+}
+#flecha-aba{
+    background-image: url(../img/flecha-aba.png);
+    background-size:contain;
 }
 
 .flechas{
@@ -37,8 +48,8 @@
 .flecha{
     height: 50px;
     width: 50px;
+    border: 2px solid var(--color-secundary);
     border-radius: 50%;
-    border: 5px solid var(--color-secundary);
 }
 
 .flecha h3{
@@ -50,19 +61,20 @@
 .flecha:hover h3{
     color: var(--color-secundary);
     margin-left: 140%;
-    font-weight: bold;
+    font-weight: 300;
 }
 
 #button-home{
     font-family: var(--font-primary);
     position: absolute;
-    left: 46%;
-    bottom: 3%;
+    left: 45.6%;
+    bottom: 1%;
     text-decoration: none;
     color: var(--color-secundary);
+    cursor: pointer;
 }
 #button-home h1{
-    font-weight: bold;
+    font-weight: 300;
 }
 
 #button-home div{

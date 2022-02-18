@@ -29,7 +29,7 @@
 }
 .etiqueta-h1 h1{
     font-size: 1.7rem;
-    font-weight: bold;
+    font-weight: 300;
     letter-spacing: 3px;
 }
 
@@ -61,7 +61,7 @@
 
 /* -- ETIQUETA 2 -- */
 .etiqueta2{
-    margin-top: 21.7%;
+    margin-top: 20%;
     height: 600px;
     border-radius: 50px 50px 0px 0px;
 }
@@ -74,7 +74,7 @@
 }
 .etiqueta2:hover {
     color: var(--color-secundary);
-    margin-top: 19%;
+    margin-top: 17.4%;
     height: 650px;
     padding-bottom: 60px;
 }
