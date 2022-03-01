@@ -62,7 +62,7 @@
 /* -- ETIQUETA 2 -- */
 .etiqueta2{
     margin-top: 16.8%;
-    height: 692px;
+    height: 652px;
     border-radius: 50px 50px 0px 0px;
 }
 .etiqueta2 .etiqueta-h1{
@@ -75,7 +75,7 @@
 .etiqueta2:hover {
     color: var(--color-secundary);
     margin-top: 15.7%;
-    height: 712px;
+    height: 672px;
     padding-bottom: 60px;
 }
 
