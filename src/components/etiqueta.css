@@ -18,7 +18,7 @@
     margin-right: -5%;
     padding-bottom: 25px;
     height: 830px;
-    width: 550px;
+    width: 500px;
     transition: .5s;
 }
 .etiqueta-h1{
@@ -61,7 +61,7 @@
 
 /* -- ETIQUETA 2 -- */
 .etiqueta2{
-    margin-top: 20%;
+    margin-top: 16.8%;
     height: 600px;
     border-radius: 50px 50px 0px 0px;
 }
@@ -74,8 +74,8 @@
 }
 .etiqueta2:hover {
     color: var(--color-secundary);
-    margin-top: 17.4%;
-    height: 650px;
+    margin-top: 15.7%;
+    height: 620px;
     padding-bottom: 60px;
 }
 
@@ -90,4 +90,112 @@
     color: var(--color-secundary);
     height: 850px;
   }
-  
+
+@media only screen and (max-width: 768px){
+    .etiqueta-contenedor {
+        background-color: var(--gray-light);
+        color: var(--color-secundary);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        padding-bottom: 25px;
+        height: 25vh;
+        width: 75vw;
+        transition: .5s;
+    }
+    .etiqueta-h1 h1{
+        font-size: 1rem;
+    }
+    
+    .etiqueta-img{
+        display: flex;
+        align-items: flex-end;
+        width: 80%;
+        height: 60%;
+        margin-left: 40px;
+    }
+    
+    .etiqueta-img img{
+        height: 100%;
+        object-fit:contain;
+        border-radius: 15px;
+    }
+    
+    /* -- ETIQUETA 1 -- */
+    .etiqueta1 {
+        height: 20vh;
+        margin-top: 25%;
+        border-radius: 0px 15px 50px 0px;
+        margin-left: -30vw;
+    }
+    .etiqueta1 .etiqueta-h1{
+        margin-top: 67px;
+        margin-right: 27px;
+    }
+    .etiqueta1 .etiqueta-img{
+        margin-top: 20px;
+        height: 100%;
+    }
+    .etiqueta1:hover{
+        color: var(--color-secundary);
+        margin-left: -25vw;
+        height: 20vh;
+        width: 80vw;
+      }
+    
+    
+    /* -- ETIQUETA 2 -- */
+    .etiqueta2{
+        margin-top: 0%;
+        margin-left: 19.5vw;
+        height: 20vh;
+        border-radius: 50px 0px 0px 50px;
+    }
+    .etiqueta2 .etiqueta-h1{
+        width: 150px;
+        margin-bottom: -20px;
+        margin-right: 150px;
+    }
+    .etiqueta2 .etiqueta-img{
+        margin-top: 100px;
+        height: 100%;
+    }
+    .etiqueta2 img{
+        margin-top: 100px;
+        margin-right: 100px;
+        height: 100%;
+    }
+    .etiqueta2:hover {
+        color: var(--color-secundary);
+        margin-top: 0%;
+        margin-left: 17.5vw;
+        width: 52vh;
+        height: 20vh;
+        padding-bottom: 25px;
+    }
+    
+    /* -- ETIQUETA 3 -- */
+    .etiqueta3{
+        height: 35vh;
+        border-radius: 0px 50px 15px 0px;
+        margin-left: -30vw;
+      }
+    .etiqueta3 .etiqueta-h1{
+        margin-bottom: 0px;
+        margin-right: 80px;
+    }
+    .etiqueta3 .etiqueta-img{
+        margin-top: 25px;
+        height: 100%;
+      }
+    .etiqueta3 img{
+        height: 100%;
+      }
+    .etiqueta3:hover {
+        color: var(--color-secundary);
+        margin-left: -25vw;
+        height: 35vh;
+        width: 80vw;
+      }
+}

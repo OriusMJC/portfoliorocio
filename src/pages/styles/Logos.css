@@ -42,3 +42,13 @@ section{
     height: 45%;
     width: 24%;
 }
+
+@media only screen and (max-width: 768px){
+  .container-logos{
+    flex-direction: column;
+  }
+  .container-logos img{
+    height: 24%;
+    width: 45%;
+}
+}

@@ -8,10 +8,11 @@
     /* ======== FONTS ======== */
     --font-primary: 'Josefin Sans', sans-serif;
   }
-
 .container-dflecha{
+    background-color: transparent;
     font-family: var(--font-primary);
     position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,6 +20,7 @@
     margin-left: 20px;
     height: 100vh;
     width: 4vw;
+    z-index: 900;
 
 }
 .container-dflecha h1{
@@ -60,13 +62,14 @@
 }
 .flecha:hover h3{
     color: var(--color-secundary);
-    margin-left: 140%;
+    margin-left: 55px;
     font-weight: 300;
 }
 
 #button-home{
     font-family: var(--font-primary);
     position: absolute;
+    position: fixed;
     left: 45.6%;
     bottom: 1%;
     text-decoration: none;
@@ -85,4 +88,25 @@
     margin-left: 32px;
     height: 30px;
     width: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    .flechas{
+        height: 35px;
+        width: 35px;
+    }
+    .flecha{
+        height: 35px;
+        width: 35px;
+    }
+    .container-dflecha h1{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    #button-home div{
+        margin-top: -32px;
+        margin-left: 23px;
+        height: 23px;
+        width: 23px;
+    }
 }

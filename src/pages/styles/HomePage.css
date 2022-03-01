@@ -73,7 +73,7 @@ section{
 .name{
   margin-left: 10px;
   padding-bottom: 6%;
-  width: 155px;
+  width: 170px;
 }
 .container-left h1{
   font-size: 3.7rem;
@@ -372,11 +372,12 @@ section{
   z-index: 300;
 }
 .div-tittle-proyectos{
-  display: flex;
+  overflow-wrap: break-word;
+  display: block;
   position: absolute;
   left: 27%;
   margin-top: 20px;
-  width: 280px;
+  width: 310px;
   height: 250px;
   color: var(--gray-medium)
 }
@@ -504,4 +505,274 @@ input::placeholder, textarea::placeholder{
   color: var(--color-secundary);
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+/* ----Media Query---- */
+
+@media only screen and (max-width: 768px){
+  .rologo{
+    position: absolute;
+    height: 10px;
+    margin:1095px;
+    right: 10px;
+  }
+  /* --Section 1-- */
+  #home{
+    height: 100vh;
+  }
+                /*==== LEFT ====  */
+  .container-left {
+    width: 100vw;
+    height: 35vh;
+  }
+  .contain-circle {
+    width: 230px;
+    margin-top: 5%;
+    margin-left: 19%;
+  }
+  .contain-circle .circle{
+    max-height: 230px;
+    width: 330px;
+  }
+  .name{
+    margin-left: 5px;
+    margin-bottom: -97px;
+  }
+  .container-left h1{
+    font-size: 2.1rem;
+  }
+  
+                /*==== BUTTON ==== */
+  .contain-button{
+    bottom: 59%;
+    left: 40%;
+  }
+  .contain-button button {
+    font-size: 1rem;
+  }
+  .o-dark{
+    height: 15px;
+    width: 15px;
+    right: 38%;
+  }
+  .o-light{
+    height: 14px;
+    width: 14px;
+    right: 39%;
+    margin-bottom: 2px;
+  }
+  .btn-activate{ 
+    bottom: 59%;
+    left: 40%;
+  }
+  .btn-activate button{ 
+    font-size: 1rem;
+  }
+  
+  
+                /* ==== RIGHT ==== */
+  .container-right {
+    width: 100vw;
+    height: 65vh;
+  }
+/* ====== SECTION 2 ====== */
+#sobremi{
+  background-color: var(--color-primary);
+  display: flex;
+}
+            /* ==== FOTO SOBRE MI ==== */
+.div-imgsobremi{
+  height: 0vh;
+  width: 0%;
+}
+.div-imgsobremi img{
+  height: 0%;
+  width: 0%;
+}
+            /* ==== DESCRIPCION 'SOBRE MI' ==== */
+.container-sobremi{
+  height: 65vh;
+  width: 100vw;
+}
+.text-sobremi{
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  width: 100%;
+}
+.text-sobremi h1{
+  font-size: 5rem;
+  letter-spacing: 5px;
+}
+.text-data{
+  top: 5%;
+  right: 1%;
+}
+.text-data h2{
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+.text-description{
+  top: 35%;
+  right: 15vw;
+  width: 70%;
+}
+.text-description h3{
+  padding-top: 50px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.text-desing{
+  bottom: 5%;
+  left: 0%;
+}
+.text-desing h2{
+  font-size: .9rem;
+}
+
+            /* ==== H1 ARGENTINA ==== */
+.pais{
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 95%;
+  right: -20px;
+}
+
+            /* ==== INTERESES ==== */
+.container-intereses{
+  left: 0%;
+  top: 63%;
+  height: 35vh;
+  width: 100%;
+}
+.herramientas {
+  justify-content: center;
+  height: 35%;
+  width: 100%;
+}
+.herramientas:after{
+  bottom: 55%;
+}
+.herramientas img{
+  height: 80%;
+  margin-right: 0%;
+  margin-top: 25px;
+}
+
+.intereses{
+  justify-content: center;
+  height: 40%;
+  width: 100%;
+  margin-top: 0%;
+}
+.intereses:after{
+  bottom: 10%;
+}
+.intereses h1{
+  font-size: 1rem;
+  margin-top: -18%;
+  margin-right: 72%;
+}
+.intereses img{
+  height: 50%;
+  width: 90%;
+  margin-right: 0%;
+}
+
+/* ====== SECTION 3 ====== */
+#proyectos{
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 300;
+}
+.div-tittle-proyectos{
+  overflow-wrap: normal;
+  justify-content:center;
+  margin-top: 20px;
+  margin-left: -28%;
+  width: 90%;
+  height: 150px;
+}
+.div-tittle-proyectos h1{
+  font-size: 4rem;
+}
+/* ====== SECTION 4 ====== */
+
+          /* -- TITTLE CONTACT -- */
+.tittle-contact{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+  margin-top: 100px;
+  margin-left: 0%;
+}
+.tittle-contact h1{
+  font-size: 4rem;
+}
+.contain-links-contact{
+  margin-top: 85px;
+  margin-left: -350px;
+}
+
+.contain-links-contact a{
+  margin-top: 50px;
+  text-decoration: none;
+  height: 27px;
+}
+.contain-links-contact a:hover{
+  color: var(--gray-medium);
+  margin-top: 52px;
+  margin-bottom: -2px;
+}
+
+.contain-links-contact a h2{
+  margin-left: 63px;
+  margin-top: -35px;
+}
+.contain-links-contact a img{
+  height: 40px;
+}
+
+
+.contact-animation{
+  animation: none;
+}
+
+          /* ---- FORM ----- */
+.div-form{
+  position: absolute;
+  right: 8%;
+  margin-top: 430px;
+  height: 60vh;
+  width: 80vw;
+}
+.form .input-data{
+  margin-top: 20px;
+}
+.form textarea{
+  margin-top: 20px;
+  border-radius: 0px 35px 35px 35px;
+}
+.button-enviar {
+  height: 45px;
+  width: 120px;
+  font-size: 1.3rem;
+}
+.button-enviar:hover {
+  margin-top: 37px;
+  height: 50px;
+  width: 125px;
+  font-size: 1.4rem;
+}
+input::placeholder, textarea::placeholder{
+  color: var(--color-secundary);
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+
 }

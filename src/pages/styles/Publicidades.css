@@ -12,6 +12,7 @@
 section{
     height:100vh;
     width:100vw;
+    z-index: 0;
   }
   .rologo{
     position: absolute;
@@ -67,4 +68,62 @@ section{
     margin-top: 13px;
     height: 47.6%;
     width: 20%;
+}
+
+@media only screen and (max-width: 768px){
+    .container-publicidades{
+        justify-content: center;
+    }
+
+    .container-publicidades img{
+        height: 180px;
+        min-width: 180px;
+        margin: 7px;
+    }
+    #queratina2{
+        height: 0px;
+        width: 0px;
+    }
+    #revista{
+        height: 220px;
+        width: 180px;
+    }
+    #sonrisas{
+        position: absolute;
+        left: 13.5%;
+        top: 49.8%; 
+        height: 9%;
+        width: 374px;
+    }
+    
+    #tango{
+        margin-top: 100px;
+        height: 260px;
+        width: 374px;
+    }
+    #panel{
+        margin-top: 0px;
+        height: 0%;
+        width: 0%;
+    }
+    #moot{
+        margin-top: -600px;
+        margin-right: 200px;
+        height: 220px;
+        width: 180px;
+    }
+}
+@media only screen and (max-width: 457px){
+    #sonrisas{
+        position: initial;
+    }
+    #tango{
+        margin-top: 10px;
+        height: 260px;
+        width: 374px;
+    }
+    #moot{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
 }

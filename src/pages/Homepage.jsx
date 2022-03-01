@@ -99,7 +99,7 @@ export default function Homepage(){
           </section>
           <section id='proyectos'>
                 <div className='div-tittle-proyectos'>
-                    <h1>Proye ctos.</h1>
+                    <h1>Proyectos.</h1>
                 </div>
                 <Etiqueta page='logos' image={logos} id='1'></Etiqueta>
                 <Etiqueta page='publicidades' image={publicidades} id='2'></Etiqueta>
@@ -114,7 +114,7 @@ export default function Homepage(){
                             <img src={logoinsta}/>
                             <h2>@roc_oliv</h2>
                         </a>
-                        <a href='' target='_blank'>
+                        <a href='https://www.linkedin.com/in/roc%C3%ADo-olivera-7a9241213/' target='_blank'>
                             <img src={logolinkedin}/>
                             <h2>Rocío Olivera</h2>
                         </a>
