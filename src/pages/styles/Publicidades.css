@@ -9,11 +9,6 @@
     --font-primary: 'Josefin Sans', sans-serif;
   }
 
-section{
-    height:100vh;
-    width:100vw;
-    z-index: 0;
-  }
   .rologo{
     position: absolute;
     height: 60px;
@@ -26,6 +21,8 @@ section{
 #publicidades{
     background-color: var(--gray-light);
     display: flex;
+    height:162vh;
+    width:100vw;
 }
 
 .container-publicidades{
@@ -123,7 +120,8 @@ section{
         width: 374px;
     }
     #moot{
-        margin-top: 0px;
-        margin-right: 0px;
+        height: 300px;
+        margin: 0px;
+        border-bottom: 80px solid transparent;
     }
 }

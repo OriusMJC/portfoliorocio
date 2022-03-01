@@ -24,7 +24,7 @@
 .etiqueta-h1{
     position: absolute;
     transform: rotate(270deg);
-    margin-left: -25%;
+    margin-left: -22%;
     font-family: var(--font-primary);
 }
 .etiqueta-h1 h1{
@@ -62,7 +62,7 @@
 /* -- ETIQUETA 2 -- */
 .etiqueta2{
     margin-top: 16.8%;
-    height: 600px;
+    height: 692px;
     border-radius: 50px 50px 0px 0px;
 }
 .etiqueta2 .etiqueta-h1{
@@ -75,7 +75,7 @@
 .etiqueta2:hover {
     color: var(--color-secundary);
     margin-top: 15.7%;
-    height: 620px;
+    height: 712px;
     padding-bottom: 60px;
 }
 
@@ -149,13 +149,13 @@
     .etiqueta2{
         margin-top: 0%;
         margin-left: 19.5vw;
-        height: 20vh;
+        height: 22vh;
         border-radius: 50px 0px 0px 50px;
     }
     .etiqueta2 .etiqueta-h1{
         width: 150px;
         margin-bottom: -20px;
-        margin-right: 150px;
+        margin-right: 110px;
     }
     .etiqueta2 .etiqueta-img{
         margin-top: 100px;
@@ -163,7 +163,7 @@
     }
     .etiqueta2 img{
         margin-top: 100px;
-        margin-right: 100px;
+        margin-right: 50px;
         height: 100%;
     }
     .etiqueta2:hover {
@@ -182,8 +182,8 @@
         margin-left: -30vw;
       }
     .etiqueta3 .etiqueta-h1{
-        margin-bottom: 0px;
-        margin-right: 80px;
+        margin-bottom: -25px;
+        margin-right: 70px;
     }
     .etiqueta3 .etiqueta-img{
         margin-top: 25px;

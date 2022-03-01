@@ -528,7 +528,7 @@ input::placeholder, textarea::placeholder{
   .contain-circle {
     width: 230px;
     margin-top: 5%;
-    margin-left: 19%;
+    margin-left: 13%;
   }
   .contain-circle .circle{
     max-height: 230px;

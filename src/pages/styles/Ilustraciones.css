@@ -8,10 +8,8 @@
     /* ======== FONTS ======== */
     --font-primary: 'Josefin Sans', sans-serif;
   }
-
-section{
-    height:100vh;
-    width:100vw;
+body{
+    background-color: var(--gray-medium);
 }
 .rologo{
     position: absolute;
@@ -24,6 +22,8 @@ section{
 #ilustraciones{
     background-color: var(--gray-light);
     display: flex;
+    height:172vh;
+    width:100vw;
 }
 
 .container-ilustraciones{
@@ -129,5 +129,9 @@ section{
     }
     #potato{
         position: initial;
+        height: 300px;
+        width: 200px;
+        margin: 0px;
+        border-bottom: 80px solid transparent;
     }
 }
